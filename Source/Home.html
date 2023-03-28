@@ -5,77 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Acesso Rápido | Início</title>
-    <link rel="icon" href="../Media/Icons/drogaria-retiro.ico">
+    <link rel="icon" href="../Media/Icons/drogaria-retiro.png">
     <link rel="stylesheet" href="../Interface/Default.css">
+    <script src="../Scripts/Default.js"></script>
 </head>
-<body>
+<body onload="LoadFooterText()">
     <h1>
-        <a id="homeIcon" href="https://sd.assisteconline.com.br/retiro/front/ticket.form.php">
-            <img src="../Media/Icons/drogaria-retiro.ico" alt="">
+        <a id="homeIcon" href="http://192.168.10.10:8090/glpi/plugins/formcreator/front/formdisplay.php?id=10">
+            <img src="../Media/Icons/drogaria-retiro.png">
         </a>
         Acesso Rápido
     </h1>
     <h2>
         <div id="active">Início</div>
-        <a id="button" href="Bookmarks.html">Favoritos</a>
+        <a id="button" href="Sites.html">Sites</a>
         <a id="button" href="Downloads.html">Downloads</a>
-        <a id="button" href="Tutorials.html">Tutoriais</a>
-        <a id="button" href="Settings.html">Configurações</a>
     </h2>
     <div id="container">
-
-        <div id="noContent">
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            Sem Conteúdo
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-        </div>
-
+        <img id="searchHeader" src="../Media/Icons/grupo-retiro.png"><br>
+        <input id="searchBar" type="search" placeholder="Pesquisar na Web" value="">
+        <select id="searchSelect">
+            <option value="1">Google</option>
+            <option value="2">Bing</option>
+        </select>
+        <input id="searchButton" type="submit" value="OK" onclick="WebSearch()">
     </div>
 </body>
 <footer>
-    <p id="footer">
-        Quick Access 2.1.5 Copyright © 2021-2022 By Kellvyn Sampaio<br>
-        <a id="creditLink" href="https://www.instagram.com/thesampaiobr">Instagram</a> | 
-        <a id="creditLink" href="https://www.linkedin.com/in/kellvyn-sampaio-a394471a7/">Linkedin</a> | 
-        <a id="creditLink" href="https://github.com/TheSampaio">GitHub</a>
-    </p>
+    <div id="footer">
+        <a id="creditText" href="https://github.com/TheSampaio">Quick Access --- Copyright © --- By Kellvyn Sampaio</a>
+    </div>
 </footer>
 </html>

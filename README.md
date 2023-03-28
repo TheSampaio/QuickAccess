@@ -1,9 +1,2 @@
-<h1>Quick Access --version 2.1.5 alpha</h2>
-<h2><b>ENGLISH</b></h2>
-  CREDITS<br><br>
-    Developed by Kellvyn de Miranda Sampaio (GitHub: github.com/TheSampaio)<br>
-      • Open the "Home.html" file and bookmark it in the browser of your choice.<br><br>
-<h2><b>PORTUGUÊS</b></h2>
-  CRÉDITOS<br><br>
-    Desenvolvido por Kellvyn de Miranda Sampaio (GitHub: github.com/TheSampaio)<br>
-      • Abra o arquivo "Home.html" e favorite-o no navegador de sua preferencia.
+<h1>Quick Access 2.9.0</h2>
+ This site was developed to accelerate my productivity in my job as a help desk, some links will not work outside the company's VPN. You can fork the project and change all of the links, however, remember to credit this project. You can also suggest improvements to this project if you want something new or to improve current features.
